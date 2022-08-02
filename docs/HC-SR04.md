@@ -43,3 +43,6 @@ Sensor sends a  `tele/%topic%/SENSOR` JSON reponse:
 ```json
 {"Time":"2019-01-01T22:42:35","SR04":{"Distance":16.754}}
 ```
+
+JSN-SR04T
+For this type of sensor it is necessary to set module to Mode 2: Mode=47K (or directly short M1 bit) UART automatic output (board V3.0).
